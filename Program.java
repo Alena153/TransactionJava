@@ -66,7 +66,7 @@ public class Program {
                        transact.findByData(date).show();
     
                 } catch (Exception ex) {
-                    System.out.println("Contact not Found");
+                    System.out.println("Операции не существует");
                 }
         } else if (user.equals("6")) {
                  input.nextLine();
